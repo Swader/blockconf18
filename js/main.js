@@ -14,44 +14,6 @@
         });
     });
 
-    /*-------------------------------------
-    Audio Player
-    -------------------------------------*/
-    var player = document.getElementById('audio_player');
-    if(player !== null) {
-        player.addEventListener("timeupdate", function () {
-            var currentTime = player.currentTime,
-                duration = player.duration,
-                persent = Math.floor((currentTime / duration) * 100);
-            $("#audio_player").parents('.audio-player-wrap').find('.progress .progress-bar').attr("aria-valuenow", persent);
-            $("#audio_player").parents('.audio-player-wrap').find('.progress .progress-bar').css("width", persent + '%');
-            $("#audio_player").parents('.audio-player-wrap').find('.current-duration').text(Math.floor(currentTime));
-            $("#audio_player").parents('.audio-player-wrap').find('.total-duration').text(Math.floor(player.duration));
-        });
-    }
-    $("#audioplayer").on('click', '.play', function(){
-        var self = $(this);
-        if (player.paused){
-            player.play();
-            self.addClass('btn-pause');
-            self.removeClass('btn-play');
-        }else{
-            self.addClass('btn-play');
-            self.removeClass('btn-pause');
-            player.pause();
-          }
-    });
-    
-    $("#volume_control").on('change', '#rngVolume', function(){
-        player.volume = $(this).val();
-    });
-    function stopSong(){
-        player.currentTime = 0;
-        player.pause();
-    }
-
-
-    
 
     /*-------------------------------------
     Tooltips
