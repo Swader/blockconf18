@@ -504,7 +504,7 @@
                 var mapOptions = {
                     zoom: 15,
                     scrollwheel: false,
-                    center: new google.maps.LatLng(-37.81618, 144.95692),
+                    center: new google.maps.LatLng(46.389729, 16.432653),
                     styles: [{
                         stylers: [{
                             saturation: -100
@@ -514,7 +514,12 @@
                 var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
                 var marker = new google.maps.Marker({
                     position: map.getCenter(),
-                    animation: google.maps.Animation.BOUNCE,
+                    icon: 'img/map-marker.png',
+                    map: map
+                });
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(46.387232, 16.432546),
                     icon: 'img/map-marker.png',
                     map: map
                 });
