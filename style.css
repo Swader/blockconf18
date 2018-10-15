@@ -6912,9 +6912,18 @@ div ~ :last-child .progress-layout2:before {
 .sponsonrs-layout1 .sponsonrs-box a:hover img {
   -webkit-filter: grayscale(0);
 }
-/*======================================================
-[17] Blog Area Style
-=======================================================*/
+
+.sponsonrs-layout1.supporters .sponsonrs-box a img {
+  max-width: 15rem;
+}
+
+.sponsonrs-layout1.organization-partners .sponsonrs-box a img {
+  max-width: 12rem;
+}
+
+  /*======================================================
+  [17] Blog Area Style
+  =======================================================*/
 .news-meta-info {
   margin-bottom: 15px;
   font-size: 15px;
