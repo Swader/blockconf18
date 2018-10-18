@@ -1934,7 +1934,6 @@ button:hover {
   position: relative;
 }
 .overlay-primary90:before {
-  background-color: rgba(76, 24, 100, 0.9);
   content: "";
   height: 100%;
   width: 100%;
