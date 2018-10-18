@@ -6865,6 +6865,9 @@ div ~ :last-child .progress-layout2:before {
   color: #111111;
   font-weight: 700;
 }
+
+
+
 .sponsonrs-layout1 {
   text-align: center;
 }
@@ -6892,9 +6895,15 @@ div ~ :last-child .progress-layout2:before {
 }
 .sponsonrs-layout1 .sponsonrs-box {
   margin-bottom: 55px;
+  position: relative;
+  padding-top: 70%;
 }
 .sponsonrs-layout1 .sponsonrs-box a {
   display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .sponsonrs-layout1 .sponsonrs-box a img {
   display: inline-block;
@@ -6919,6 +6928,21 @@ div ~ :last-child .progress-layout2:before {
 .sponsonrs-layout1.organization-partners .sponsonrs-box a img {
   max-width: 12rem;
 }
+
+
+@media (max-width: 767px) { 
+  .sponsonrs-layout1 .sponsonrs-box {
+    padding-top: 40%;
+  }
+  .sponsonrs-layout1 .sponsonrs-box a img{
+    max-width: 100%!important;
+  }
+  .sponsonrs-layout1.organizer .sponsonrs-box a img{
+    max-width: 150%!important;
+    margin-left: -25%;
+  }
+ }
+
 
   /*======================================================
   [17] Blog Area Style
