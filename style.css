@@ -3330,6 +3330,20 @@ span.menu-trigger i {
     height: 40px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .slider-big-text p{
+    font-size: 4rem!important;
+  }
+
+  .slider-sub-text p{
+    font-size: 15px;
+    line-height: 1.3em!important;
+    padding: 0;
+  }
+
+}
+
 @media only screen and (max-width: 575px) {
   .slider-direction-layout1 .nivo-directionNav a.nivo-prevNav {
     width: 35px;
