@@ -6897,7 +6897,7 @@ div ~ :last-child .progress-layout2:before {
 .sponsonrs-layout1 .sponsonrs-box {
   margin-bottom: 55px;
   position: relative;
-  padding-top: 70%;
+  padding-top: 50%;
 }
 .sponsonrs-layout1 .sponsonrs-box a {
   display: inline-block;
