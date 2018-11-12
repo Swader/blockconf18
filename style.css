@@ -110,7 +110,6 @@ h4 {
   font-family: 'Roboto', sans-serif;
   margin: 0 0 20px 0;
   color: #111111;
-  text-transform: capitalize;
 }
 h1 {
   font-size: 7rem;
@@ -1504,14 +1503,12 @@ button:hover {
   font-weight: 400;
 }
 .title-bold {
-  text-transform: capitalize;
   font-weight: 700;
 }
 .title-bold h1,
 .title-bold h2,
 .title-bold h3,
 .title-bold h4 {
-  text-transform: capitalize;
   font-weight: 700;
 }
 .title-bold p {
