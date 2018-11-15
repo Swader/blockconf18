@@ -6956,6 +6956,11 @@ div ~ :last-child .progress-layout2:before {
   max-width: 20rem;
 }
 
+.sponsonrs-layout1.bronze-sponosors .sponsonrs-box a img {
+  max-width: 17rem;
+  max-height: 10rem;
+}
+
 .sponsonrs-layout1.supporters .sponsonrs-box a img {
   max-width: 15rem;
 }
