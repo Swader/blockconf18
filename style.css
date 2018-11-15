@@ -1471,7 +1471,6 @@ button:hover {
   font-weight: 400;
 }
 .title-medium {
-  text-transform: capitalize;
   font-weight: 500;
 }
 .title-medium h1,
@@ -5257,10 +5256,10 @@ div ~ :last-child .progress-layout2:before {
 .schedule-layout3 .schedule-nav li {
   float: left;
   display: inline-block;
-  width: 23%;
+  width: 40%;
   border-bottom: 0;
   text-align: left;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 @media only screen and (max-width: 1199px) {
   .schedule-layout3 .schedule-nav li {
@@ -5297,21 +5296,21 @@ div ~ :last-child .progress-layout2:before {
     padding: 20px 5px;
   }
 }
-.schedule-layout3 .schedule-nav li a:before {
-  content: "\f054";
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 36px;
-  z-index: 1;
-  color: #e2e2e2;
-  font-family: fontawesome;
-}
+/*.schedule-layout3 .schedule-nav li a:before {*/
+  /*content: "\f054";*/
+  /*position: absolute;*/
+  /*right: 15px;*/
+  /*top: 50%;*/
+  /*-webkit-transform: translateY(-50%);*/
+  /*-moz-transform: translateY(-50%);*/
+  /*-ms-transform: translateY(-50%);*/
+  /*-o-transform: translateY(-50%);*/
+  /*transform: translateY(-50%);*/
+  /*font-size: 36px;*/
+  /*z-index: 1;*/
+  /*color: #e2e2e2;*/
+  /*font-family: fontawesome;*/
+/*}*/
 @media only screen and (max-width: 991px) {
   .schedule-layout3 .schedule-nav li a:before {
     font-size: 24px;
