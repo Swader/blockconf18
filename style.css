@@ -6951,6 +6951,10 @@ div ~ :last-child .progress-layout2:before {
   -webkit-filter: grayscale(0);
 }
 
+.sponsonrs-layout1.gold-sponosors .sponsonrs-box a img {
+  max-width: 13rem;
+}
+
 .sponsonrs-layout1.silver-sponosors .sponsonrs-box a img {
   max-width: 18rem;
 }
